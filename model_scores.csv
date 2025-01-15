@@ -1,0 +1,8 @@
+Model,Accuracy,ROC-AUC,F1-Score
+RandomForest,0.86,0.91,0.85
+LogisticRegression,0.75,0.80,0.74
+KNN,0.77,0.78,0.76
+AdaBoost,0.86,0.90,0.85
+DecisionTree,0.81,0.82,0.80
+MLP,0.86,0.89,0.85
+ExtraTree,0.85,0.86,0.84

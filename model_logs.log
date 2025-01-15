@@ -1,0 +1,907 @@
+2025-01-12 17:03:38,741 - Step 1: Loading and Cleaning the Data...
+2025-01-12 17:03:38,827 - Data cleaning complete.
+
+2025-01-12 17:03:38,828 - Step 2: Filtering Outliers...
+2025-01-12 17:03:38,829 - Outlier filtering complete.
+
+2025-01-12 17:03:38,829 - Step 3: Splitting Data by Month...
+2025-01-12 17:07:55,695 - Step 1: Loading and Cleaning the Data...
+2025-01-12 17:07:55,801 - Data cleaning complete.
+
+2025-01-12 17:07:55,801 - Step 2: Filtering Outliers...
+2025-01-12 17:07:55,803 - Outlier filtering complete.
+
+2025-01-12 17:07:55,803 - Step 3: Splitting Data by Month...
+2025-01-12 17:08:38,399 - Step 1: Loading and Cleaning the Data...
+2025-01-12 17:08:38,438 - Data cleaning complete.
+
+2025-01-12 17:08:38,438 - Step 2: Filtering Outliers...
+2025-01-12 17:08:38,440 - Outlier filtering complete.
+
+2025-01-12 17:08:38,440 - Step 3: Splitting Data by Month...
+2025-01-12 17:08:38,486 - Monthly data splitting complete. Saved to 'monthly_segments/'.
+
+2025-01-12 17:08:38,486 - Step 4: Preparing Final Dataset...
+2025-01-12 17:18:07,690 - Step 1: Loading and Cleaning the Data...
+2025-01-12 17:18:07,762 - Data cleaning complete.
+
+2025-01-12 17:18:07,763 - Step 2: Filtering Outliers...
+2025-01-12 17:18:07,764 - Outlier filtering complete.
+
+2025-01-12 17:18:07,764 - Step 3: Splitting Data by Month...
+2025-01-12 17:19:59,354 - Step 1: Loading and Cleaning the Data...
+2025-01-12 17:19:59,470 - Data cleaning complete.
+
+2025-01-12 17:19:59,470 - Step 2: Filtering Outliers...
+2025-01-12 17:19:59,472 - Outlier filtering complete.
+
+2025-01-12 17:19:59,473 - Step 3: Splitting Data by Month...
+2025-01-12 17:19:59,541 - Monthly data splitting complete. Saved to 'monthly_segments/'.
+
+2025-01-12 17:19:59,541 - Step 4: Preparing Final Dataset...
+2025-01-12 17:27:29,194 - Step 1: Loading and Cleaning the Data...
+2025-01-12 17:27:29,261 - Data cleaning complete.
+
+2025-01-12 17:27:29,261 - Step 2: Filtering Outliers...
+2025-01-12 17:27:29,263 - Outlier filtering complete.
+
+2025-01-12 17:27:29,264 - Step 3: Splitting Data by Month...
+2025-01-12 17:27:29,330 - Monthly data splitting complete. Saved to 'monthly_segments/'.
+
+2025-01-12 17:27:29,330 - Step 4: Preparing Final Dataset...
+2025-01-12 17:29:44,811 - Step 1: Loading and Cleaning the Data...
+2025-01-12 17:29:44,921 - Data cleaning complete.
+
+2025-01-12 17:29:44,921 - Step 2: Filtering Outliers...
+2025-01-12 17:29:44,924 - Outlier filtering complete.
+
+2025-01-12 17:29:44,926 - Step 3: Splitting Data by Month...
+2025-01-12 17:29:44,993 - Monthly data splitting complete. Saved to 'monthly_segments/'.
+
+2025-01-12 17:29:44,993 - Step 4: Preparing Final Dataset...
+2025-01-12 17:29:45,011 - Validating dataset columns for training...
+2025-01-12 17:29:45,012 - Non-numerical columns found in features. Please check the dataset.
+2025-01-12 17:31:05,700 - Step 1: Loading and Cleaning the Data...
+2025-01-12 17:31:05,769 - Data cleaning complete.
+
+2025-01-12 17:31:05,769 - Step 2: Filtering Outliers...
+2025-01-12 17:31:05,770 - Outlier filtering complete.
+
+2025-01-12 17:31:05,772 - Step 3: Splitting Data by Month...
+2025-01-12 17:31:05,886 - Monthly data splitting complete. Saved to 'monthly_segments/'.
+
+2025-01-12 17:31:05,887 - Step 4: Preparing Final Dataset...
+2025-01-12 17:31:05,904 - Validating dataset columns for training...
+2025-01-12 17:32:24,987 - Step 1: Loading and Cleaning the Data...
+2025-01-12 17:32:25,102 - Data cleaning complete.
+
+2025-01-12 17:32:25,102 - Step 2: Filtering Outliers...
+2025-01-12 17:32:25,104 - Outlier filtering complete.
+
+2025-01-12 17:32:25,105 - Step 3: Splitting Data by Month...
+2025-01-12 17:32:25,172 - Monthly data splitting complete. Saved to 'monthly_segments/'.
+
+2025-01-12 17:32:25,172 - Step 4: Preparing Final Dataset...
+2025-01-12 17:32:25,191 - Validating dataset columns for training...
+2025-01-12 17:32:25,546 - Data preprocessing for model training complete.
+
+2025-01-12 17:32:25,546 - Step 5: Training the Best Model (Random Forest)...
+2025-01-12 17:32:25,775 - Random Forest model training complete.
+
+2025-01-12 17:32:25,794 - Trained model saved as 'final_model.pkl'.
+
+2025-01-12 17:32:25,794 - Loading new data from new_data.csv...
+2025-01-12 17:33:49,621 - Step 1: Loading and Cleaning the Data...
+2025-01-12 17:33:49,727 - Data cleaning complete.
+
+2025-01-12 17:33:49,727 - Step 2: Filtering Outliers...
+2025-01-12 17:33:49,729 - Outlier filtering complete.
+
+2025-01-12 17:33:49,730 - Step 3: Splitting Data by Month...
+2025-01-12 17:33:49,795 - Monthly data splitting complete. Saved to 'monthly_segments/'.
+
+2025-01-12 17:33:49,795 - Step 4: Preparing Final Dataset...
+2025-01-12 17:33:49,822 - Validating dataset columns for training...
+2025-01-12 17:33:50,096 - Data preprocessing for model training complete.
+
+2025-01-12 17:33:50,096 - Step 5: Training the Best Model (Random Forest)...
+2025-01-12 17:33:50,280 - Random Forest model training complete.
+
+2025-01-12 17:33:50,304 - Trained model saved as 'final_model.pkl'.
+
+2025-01-12 17:33:50,304 - Loading new data from new_data.csv...
+2025-01-12 17:39:23,602 - Step 1: Loading and Cleaning the Data...
+2025-01-12 17:39:23,721 - Data cleaning complete.
+
+2025-01-12 17:39:23,721 - Step 2: Filtering Outliers...
+2025-01-12 17:39:23,722 - Outlier filtering complete.
+
+2025-01-12 17:39:23,724 - Step 3: Splitting Data by Month...
+2025-01-12 17:39:23,793 - Monthly data splitting complete. Saved to 'monthly_segments/'.
+
+2025-01-12 17:39:23,793 - Step 4: Preparing Final Dataset...
+2025-01-12 17:39:23,811 - Validating dataset columns for training...
+2025-01-12 17:39:24,012 - Data preprocessing for model training complete.
+
+2025-01-12 17:39:24,013 - Step 5: Training the Best Model (Random Forest)...
+2025-01-12 17:39:24,235 - Random Forest model training complete.
+
+2025-01-12 17:39:24,254 - Trained model saved as 'final_model.pkl'.
+
+2025-01-12 17:39:24,254 - Loading new data from new_data.csv...
+2025-01-12 17:39:24,255 - Feature Monetary-2022-01 missing in new data. Filling with 0.
+2025-01-12 17:39:24,255 - Feature Frequency-2022-01 missing in new data. Filling with 0.
+2025-01-12 17:39:24,255 - Feature ItemVariety-2022-01 missing in new data. Filling with 0.
+2025-01-12 17:39:24,255 - Feature StoreVariety-2022-01 missing in new data. Filling with 0.
+2025-01-12 17:39:24,256 - Feature SubscriptionDuration missing in new data. Filling with 0.
+2025-01-12 17:39:24,256 - Feature Recency missing in new data. Filling with 0.
+2025-01-12 17:39:24,256 - Feature Monetary-2022-02 missing in new data. Filling with 0.
+2025-01-12 17:39:24,256 - Feature Frequency-2022-02 missing in new data. Filling with 0.
+2025-01-12 17:39:24,256 - Feature ItemVariety-2022-02 missing in new data. Filling with 0.
+2025-01-12 17:39:24,256 - Feature StoreVariety-2022-02 missing in new data. Filling with 0.
+2025-01-12 17:39:24,256 - Feature Monetary-2022-03 missing in new data. Filling with 0.
+2025-01-12 17:39:24,256 - Feature Frequency-2022-03 missing in new data. Filling with 0.
+2025-01-12 17:39:24,256 - Feature ItemVariety-2022-03 missing in new data. Filling with 0.
+2025-01-12 17:39:24,256 - Feature StoreVariety-2022-03 missing in new data. Filling with 0.
+2025-01-12 17:39:24,256 - Feature Monetary-2022-07 missing in new data. Filling with 0.
+2025-01-12 17:39:24,257 - Feature Frequency-2022-07 missing in new data. Filling with 0.
+2025-01-12 17:39:24,257 - Feature ItemVariety-2022-07 missing in new data. Filling with 0.
+2025-01-12 17:39:24,257 - Feature StoreVariety-2022-07 missing in new data. Filling with 0.
+2025-01-12 17:39:24,257 - Feature Monetary-2022-12 missing in new data. Filling with 0.
+2025-01-12 17:39:24,257 - Feature Frequency-2022-12 missing in new data. Filling with 0.
+2025-01-12 17:39:24,257 - Feature ItemVariety-2022-12 missing in new data. Filling with 0.
+2025-01-12 17:39:24,257 - Feature StoreVariety-2022-12 missing in new data. Filling with 0.
+2025-01-12 17:39:24,257 - Feature Monetary-2022-06 missing in new data. Filling with 0.
+2025-01-12 17:39:24,257 - Feature Frequency-2022-06 missing in new data. Filling with 0.
+2025-01-12 17:39:24,257 - Feature ItemVariety-2022-06 missing in new data. Filling with 0.
+2025-01-12 17:39:24,257 - Feature StoreVariety-2022-06 missing in new data. Filling with 0.
+2025-01-12 17:39:24,257 - Feature Monetary-2022-10 missing in new data. Filling with 0.
+2025-01-12 17:39:24,257 - Feature Frequency-2022-10 missing in new data. Filling with 0.
+2025-01-12 17:39:24,258 - Feature ItemVariety-2022-10 missing in new data. Filling with 0.
+2025-01-12 17:39:24,258 - Feature StoreVariety-2022-10 missing in new data. Filling with 0.
+2025-01-12 17:39:24,258 - Feature Monetary-2022-04 missing in new data. Filling with 0.
+2025-01-12 17:39:24,258 - Feature Frequency-2022-04 missing in new data. Filling with 0.
+2025-01-12 17:39:24,258 - Feature ItemVariety-2022-04 missing in new data. Filling with 0.
+2025-01-12 17:39:24,258 - Feature StoreVariety-2022-04 missing in new data. Filling with 0.
+2025-01-12 17:39:24,258 - Feature Monetary-2022-05 missing in new data. Filling with 0.
+2025-01-12 17:39:24,258 - Feature Frequency-2022-05 missing in new data. Filling with 0.
+2025-01-12 17:39:24,258 - Feature ItemVariety-2022-05 missing in new data. Filling with 0.
+2025-01-12 17:39:24,258 - Feature StoreVariety-2022-05 missing in new data. Filling with 0.
+2025-01-12 17:39:24,258 - Feature Monetary-2022-11 missing in new data. Filling with 0.
+2025-01-12 17:39:24,258 - Feature Frequency-2022-11 missing in new data. Filling with 0.
+2025-01-12 17:39:24,259 - Feature ItemVariety-2022-11 missing in new data. Filling with 0.
+2025-01-12 17:39:24,259 - Feature StoreVariety-2022-11 missing in new data. Filling with 0.
+2025-01-12 17:39:24,259 - Feature Monetary-2024-03 missing in new data. Filling with 0.
+2025-01-12 17:39:24,259 - Feature Frequency-2024-03 missing in new data. Filling with 0.
+2025-01-12 17:39:24,259 - Feature ItemVariety-2024-03 missing in new data. Filling with 0.
+2025-01-12 17:39:24,259 - Feature StoreVariety-2024-03 missing in new data. Filling with 0.
+2025-01-12 17:39:24,259 - Feature Monetary-2024-02 missing in new data. Filling with 0.
+2025-01-12 17:39:24,259 - Feature Frequency-2024-02 missing in new data. Filling with 0.
+2025-01-12 17:39:24,259 - Feature ItemVariety-2024-02 missing in new data. Filling with 0.
+2025-01-12 17:39:24,259 - Feature StoreVariety-2024-02 missing in new data. Filling with 0.
+2025-01-12 17:39:24,259 - Feature Monetary-2023-09 missing in new data. Filling with 0.
+2025-01-12 17:39:24,259 - Feature Frequency-2023-09 missing in new data. Filling with 0.
+2025-01-12 17:39:24,259 - Feature ItemVariety-2023-09 missing in new data. Filling with 0.
+2025-01-12 17:39:24,260 - Feature StoreVariety-2023-09 missing in new data. Filling with 0.
+2025-01-12 17:39:24,260 - Feature Monetary-2024-01 missing in new data. Filling with 0.
+2025-01-12 17:39:24,260 - Feature Frequency-2024-01 missing in new data. Filling with 0.
+2025-01-12 17:39:24,260 - Feature ItemVariety-2024-01 missing in new data. Filling with 0.
+2025-01-12 17:39:24,260 - Feature StoreVariety-2024-01 missing in new data. Filling with 0.
+2025-01-12 17:39:24,260 - Feature Monetary-2023-08 missing in new data. Filling with 0.
+2025-01-12 17:39:24,260 - Feature Frequency-2023-08 missing in new data. Filling with 0.
+2025-01-12 17:39:24,260 - Feature ItemVariety-2023-08 missing in new data. Filling with 0.
+2025-01-12 17:39:24,260 - Feature StoreVariety-2023-08 missing in new data. Filling with 0.
+2025-01-12 17:39:24,260 - Feature Monetary-2024-05 missing in new data. Filling with 0.
+2025-01-12 17:39:24,260 - Feature Frequency-2024-05 missing in new data. Filling with 0.
+2025-01-12 17:39:24,260 - Feature ItemVariety-2024-05 missing in new data. Filling with 0.
+2025-01-12 17:39:24,261 - Feature StoreVariety-2024-05 missing in new data. Filling with 0.
+2025-01-12 17:39:24,261 - Feature Monetary-2024-04 missing in new data. Filling with 0.
+2025-01-12 17:39:24,261 - Feature Frequency-2024-04 missing in new data. Filling with 0.
+2025-01-12 17:39:24,261 - Feature ItemVariety-2024-04 missing in new data. Filling with 0.
+2025-01-12 17:39:24,261 - Feature StoreVariety-2024-04 missing in new data. Filling with 0.
+2025-01-12 17:39:24,261 - Feature Monetary-2023-03 missing in new data. Filling with 0.
+2025-01-12 17:39:24,261 - Feature Frequency-2023-03 missing in new data. Filling with 0.
+2025-01-12 17:39:24,261 - Feature ItemVariety-2023-03 missing in new data. Filling with 0.
+2025-01-12 17:39:24,261 - Feature StoreVariety-2023-03 missing in new data. Filling with 0.
+2025-01-12 17:39:24,261 - Feature Monetary-2023-02 missing in new data. Filling with 0.
+2025-01-12 17:39:24,261 - Feature Frequency-2023-02 missing in new data. Filling with 0.
+2025-01-12 17:39:24,261 - Feature ItemVariety-2023-02 missing in new data. Filling with 0.
+2025-01-12 17:39:24,262 - Feature StoreVariety-2023-02 missing in new data. Filling with 0.
+2025-01-12 17:39:24,262 - Feature Monetary-2023-01 missing in new data. Filling with 0.
+2025-01-12 17:39:24,262 - Feature Frequency-2023-01 missing in new data. Filling with 0.
+2025-01-12 17:39:24,262 - Feature ItemVariety-2023-01 missing in new data. Filling with 0.
+2025-01-12 17:39:24,262 - Feature StoreVariety-2023-01 missing in new data. Filling with 0.
+2025-01-12 17:39:24,262 - Feature Monetary-2023-11 missing in new data. Filling with 0.
+2025-01-12 17:39:24,262 - Feature Frequency-2023-11 missing in new data. Filling with 0.
+2025-01-12 17:39:24,262 - Feature ItemVariety-2023-11 missing in new data. Filling with 0.
+2025-01-12 17:39:24,262 - Feature StoreVariety-2023-11 missing in new data. Filling with 0.
+2025-01-12 17:39:24,262 - Feature Monetary-2023-05 missing in new data. Filling with 0.
+2025-01-12 17:39:24,262 - Feature Frequency-2023-05 missing in new data. Filling with 0.
+2025-01-12 17:39:24,263 - Feature ItemVariety-2023-05 missing in new data. Filling with 0.
+2025-01-12 17:39:24,263 - Feature StoreVariety-2023-05 missing in new data. Filling with 0.
+2025-01-12 17:39:24,263 - Feature Monetary-2023-04 missing in new data. Filling with 0.
+2025-01-12 17:39:24,263 - Feature Frequency-2023-04 missing in new data. Filling with 0.
+2025-01-12 17:39:24,263 - Feature ItemVariety-2023-04 missing in new data. Filling with 0.
+2025-01-12 17:39:24,263 - Feature StoreVariety-2023-04 missing in new data. Filling with 0.
+2025-01-12 17:39:24,263 - Feature Monetary-2023-10 missing in new data. Filling with 0.
+2025-01-12 17:39:24,263 - Feature Frequency-2023-10 missing in new data. Filling with 0.
+2025-01-12 17:39:24,263 - Feature ItemVariety-2023-10 missing in new data. Filling with 0.
+2025-01-12 17:39:24,263 - Feature StoreVariety-2023-10 missing in new data. Filling with 0.
+2025-01-12 17:39:24,263 - Feature Monetary-2023-06 missing in new data. Filling with 0.
+2025-01-12 17:39:24,264 - Feature Frequency-2023-06 missing in new data. Filling with 0.
+2025-01-12 17:39:24,264 - Feature ItemVariety-2023-06 missing in new data. Filling with 0.
+2025-01-12 17:39:24,264 - Feature StoreVariety-2023-06 missing in new data. Filling with 0.
+2025-01-12 17:39:24,264 - Feature Monetary-2023-12 missing in new data. Filling with 0.
+2025-01-12 17:39:24,264 - Feature Frequency-2023-12 missing in new data. Filling with 0.
+2025-01-12 17:39:24,264 - Feature ItemVariety-2023-12 missing in new data. Filling with 0.
+2025-01-12 17:39:24,264 - Feature StoreVariety-2023-12 missing in new data. Filling with 0.
+2025-01-12 17:39:24,264 - Feature Monetary-2023-07 missing in new data. Filling with 0.
+2025-01-12 17:39:24,265 - Feature Frequency-2023-07 missing in new data. Filling with 0.
+2025-01-12 17:39:24,265 - Feature ItemVariety-2023-07 missing in new data. Filling with 0.
+2025-01-12 17:39:24,265 - Feature StoreVariety-2023-07 missing in new data. Filling with 0.
+2025-01-12 17:39:24,265 - Feature Monetary-2022-08 missing in new data. Filling with 0.
+2025-01-12 17:39:24,265 - Feature Frequency-2022-08 missing in new data. Filling with 0.
+2025-01-12 17:39:24,265 - Feature ItemVariety-2022-08 missing in new data. Filling with 0.
+2025-01-12 17:39:24,265 - Feature StoreVariety-2022-08 missing in new data. Filling with 0.
+2025-01-12 17:39:24,266 - Feature Monetary-2022-09 missing in new data. Filling with 0.
+2025-01-12 17:39:24,266 - Feature Frequency-2022-09 missing in new data. Filling with 0.
+2025-01-12 17:39:24,266 - Feature ItemVariety-2022-09 missing in new data. Filling with 0.
+2025-01-12 17:39:24,266 - Feature StoreVariety-2022-09 missing in new data. Filling with 0.
+2025-01-12 17:39:24,267 - Checking for data drift...
+2025-01-12 17:39:24,270 - Significant data drift detected in feature: Monetary-2022-01
+2025-01-12 17:39:24,273 - Significant data drift detected in feature: Frequency-2022-01
+2025-01-12 17:39:24,275 - Significant data drift detected in feature: ItemVariety-2022-01
+2025-01-12 17:39:24,278 - Significant data drift detected in feature: StoreVariety-2022-01
+2025-01-12 17:39:24,280 - Significant data drift detected in feature: SubscriptionDuration
+2025-01-12 17:39:24,282 - Significant data drift detected in feature: Recency
+2025-01-12 17:39:24,284 - Significant data drift detected in feature: Monetary-2022-02
+2025-01-12 17:39:24,287 - Significant data drift detected in feature: Frequency-2022-02
+2025-01-12 17:39:24,289 - Significant data drift detected in feature: ItemVariety-2022-02
+2025-01-12 17:39:24,291 - Significant data drift detected in feature: StoreVariety-2022-02
+2025-01-12 17:39:24,293 - Significant data drift detected in feature: Monetary-2022-03
+2025-01-12 17:39:24,295 - Significant data drift detected in feature: Frequency-2022-03
+2025-01-12 17:39:24,297 - Significant data drift detected in feature: ItemVariety-2022-03
+2025-01-12 17:39:24,299 - Significant data drift detected in feature: StoreVariety-2022-03
+2025-01-12 17:39:24,301 - Significant data drift detected in feature: Monetary-2022-07
+2025-01-12 17:39:24,303 - Significant data drift detected in feature: Frequency-2022-07
+2025-01-12 17:39:24,306 - Significant data drift detected in feature: ItemVariety-2022-07
+2025-01-12 17:39:24,307 - Significant data drift detected in feature: StoreVariety-2022-07
+2025-01-12 17:39:24,310 - Significant data drift detected in feature: Monetary-2022-12
+2025-01-12 17:39:24,312 - Significant data drift detected in feature: Frequency-2022-12
+2025-01-12 17:39:24,314 - Significant data drift detected in feature: ItemVariety-2022-12
+2025-01-12 17:39:24,316 - Significant data drift detected in feature: StoreVariety-2022-12
+2025-01-12 17:39:24,318 - Significant data drift detected in feature: Monetary-2022-06
+2025-01-12 17:39:24,320 - Significant data drift detected in feature: Frequency-2022-06
+2025-01-12 17:39:24,322 - Significant data drift detected in feature: ItemVariety-2022-06
+2025-01-12 17:39:24,324 - Significant data drift detected in feature: StoreVariety-2022-06
+2025-01-12 17:39:24,326 - Significant data drift detected in feature: Monetary-2022-10
+2025-01-12 17:39:24,329 - Significant data drift detected in feature: Frequency-2022-10
+2025-01-12 17:39:24,331 - Significant data drift detected in feature: ItemVariety-2022-10
+2025-01-12 17:39:24,333 - Significant data drift detected in feature: StoreVariety-2022-10
+2025-01-12 17:39:24,335 - Significant data drift detected in feature: Monetary-2022-04
+2025-01-12 17:39:24,337 - Significant data drift detected in feature: Frequency-2022-04
+2025-01-12 17:39:24,339 - Significant data drift detected in feature: ItemVariety-2022-04
+2025-01-12 17:39:24,341 - Significant data drift detected in feature: StoreVariety-2022-04
+2025-01-12 17:39:24,343 - Significant data drift detected in feature: Monetary-2022-05
+2025-01-12 17:39:24,345 - Significant data drift detected in feature: Frequency-2022-05
+2025-01-12 17:39:24,347 - Significant data drift detected in feature: ItemVariety-2022-05
+2025-01-12 17:39:24,349 - Significant data drift detected in feature: StoreVariety-2022-05
+2025-01-12 17:39:24,351 - Significant data drift detected in feature: Monetary-2022-11
+2025-01-12 17:39:24,353 - Significant data drift detected in feature: Frequency-2022-11
+2025-01-12 17:39:24,355 - Significant data drift detected in feature: ItemVariety-2022-11
+2025-01-12 17:39:24,357 - Significant data drift detected in feature: StoreVariety-2022-11
+2025-01-12 17:39:24,359 - Significant data drift detected in feature: Monetary-2024-03
+2025-01-12 17:39:24,361 - Significant data drift detected in feature: Frequency-2024-03
+2025-01-12 17:39:24,363 - Significant data drift detected in feature: ItemVariety-2024-03
+2025-01-12 17:39:24,365 - Significant data drift detected in feature: StoreVariety-2024-03
+2025-01-12 17:39:24,367 - Significant data drift detected in feature: Monetary-2024-02
+2025-01-12 17:39:24,369 - Significant data drift detected in feature: Frequency-2024-02
+2025-01-12 17:39:24,371 - Significant data drift detected in feature: ItemVariety-2024-02
+2025-01-12 17:39:24,373 - Significant data drift detected in feature: StoreVariety-2024-02
+2025-01-12 17:39:24,375 - Significant data drift detected in feature: Monetary-2023-09
+2025-01-12 17:39:24,377 - Significant data drift detected in feature: Frequency-2023-09
+2025-01-12 17:39:24,379 - Significant data drift detected in feature: ItemVariety-2023-09
+2025-01-12 17:39:24,381 - Significant data drift detected in feature: StoreVariety-2023-09
+2025-01-12 17:39:24,383 - Significant data drift detected in feature: Monetary-2024-01
+2025-01-12 17:39:24,385 - Significant data drift detected in feature: Frequency-2024-01
+2025-01-12 17:39:24,387 - Significant data drift detected in feature: ItemVariety-2024-01
+2025-01-12 17:39:24,389 - Significant data drift detected in feature: StoreVariety-2024-01
+2025-01-12 17:39:24,391 - Significant data drift detected in feature: Monetary-2023-08
+2025-01-12 17:39:24,394 - Significant data drift detected in feature: Frequency-2023-08
+2025-01-12 17:39:24,397 - Significant data drift detected in feature: ItemVariety-2023-08
+2025-01-12 17:39:24,399 - Significant data drift detected in feature: StoreVariety-2023-08
+2025-01-12 17:39:24,401 - Significant data drift detected in feature: Monetary-2024-05
+2025-01-12 17:39:24,403 - Significant data drift detected in feature: Frequency-2024-05
+2025-01-12 17:39:24,405 - Significant data drift detected in feature: ItemVariety-2024-05
+2025-01-12 17:39:24,407 - Significant data drift detected in feature: StoreVariety-2024-05
+2025-01-12 17:39:24,409 - Significant data drift detected in feature: Monetary-2024-04
+2025-01-12 17:39:24,411 - Significant data drift detected in feature: Frequency-2024-04
+2025-01-12 17:39:24,414 - Significant data drift detected in feature: ItemVariety-2024-04
+2025-01-12 17:39:24,415 - Significant data drift detected in feature: StoreVariety-2024-04
+2025-01-12 17:39:24,417 - Significant data drift detected in feature: Monetary-2023-03
+2025-01-12 17:39:24,420 - Significant data drift detected in feature: Frequency-2023-03
+2025-01-12 17:39:24,422 - Significant data drift detected in feature: ItemVariety-2023-03
+2025-01-12 17:39:24,423 - Significant data drift detected in feature: StoreVariety-2023-03
+2025-01-12 17:39:24,426 - Significant data drift detected in feature: Monetary-2023-02
+2025-01-12 17:39:24,428 - Significant data drift detected in feature: Frequency-2023-02
+2025-01-12 17:39:24,430 - Significant data drift detected in feature: ItemVariety-2023-02
+2025-01-12 17:39:24,432 - Significant data drift detected in feature: StoreVariety-2023-02
+2025-01-12 17:39:24,434 - Significant data drift detected in feature: Monetary-2023-01
+2025-01-12 17:39:24,436 - Significant data drift detected in feature: Frequency-2023-01
+2025-01-12 17:39:24,438 - Significant data drift detected in feature: ItemVariety-2023-01
+2025-01-12 17:39:24,440 - Significant data drift detected in feature: StoreVariety-2023-01
+2025-01-12 17:39:24,442 - Significant data drift detected in feature: Monetary-2023-11
+2025-01-12 17:39:24,444 - Significant data drift detected in feature: Frequency-2023-11
+2025-01-12 17:39:24,446 - Significant data drift detected in feature: ItemVariety-2023-11
+2025-01-12 17:39:24,448 - Significant data drift detected in feature: StoreVariety-2023-11
+2025-01-12 17:39:24,450 - Significant data drift detected in feature: Monetary-2023-05
+2025-01-12 17:39:24,452 - Significant data drift detected in feature: Frequency-2023-05
+2025-01-12 17:39:24,454 - Significant data drift detected in feature: ItemVariety-2023-05
+2025-01-12 17:39:24,456 - Significant data drift detected in feature: StoreVariety-2023-05
+2025-01-12 17:39:24,458 - Significant data drift detected in feature: Monetary-2023-04
+2025-01-12 17:39:24,460 - Significant data drift detected in feature: Frequency-2023-04
+2025-01-12 17:39:24,462 - Significant data drift detected in feature: ItemVariety-2023-04
+2025-01-12 17:39:24,464 - Significant data drift detected in feature: StoreVariety-2023-04
+2025-01-12 17:39:24,466 - Significant data drift detected in feature: Monetary-2023-10
+2025-01-12 17:39:24,468 - Significant data drift detected in feature: Frequency-2023-10
+2025-01-12 17:39:24,470 - Significant data drift detected in feature: ItemVariety-2023-10
+2025-01-12 17:39:24,472 - Significant data drift detected in feature: StoreVariety-2023-10
+2025-01-12 17:39:24,474 - Significant data drift detected in feature: Monetary-2023-06
+2025-01-12 17:39:24,476 - Significant data drift detected in feature: Frequency-2023-06
+2025-01-12 17:39:24,478 - Significant data drift detected in feature: ItemVariety-2023-06
+2025-01-12 17:39:24,480 - Significant data drift detected in feature: StoreVariety-2023-06
+2025-01-12 17:39:24,482 - Significant data drift detected in feature: Monetary-2023-12
+2025-01-12 17:39:24,484 - Significant data drift detected in feature: Frequency-2023-12
+2025-01-12 17:39:24,486 - Significant data drift detected in feature: ItemVariety-2023-12
+2025-01-12 17:39:24,488 - Significant data drift detected in feature: StoreVariety-2023-12
+2025-01-12 17:39:24,490 - Significant data drift detected in feature: Monetary-2023-07
+2025-01-12 17:39:24,492 - Significant data drift detected in feature: Frequency-2023-07
+2025-01-12 17:39:24,494 - Significant data drift detected in feature: ItemVariety-2023-07
+2025-01-12 17:39:24,496 - Significant data drift detected in feature: StoreVariety-2023-07
+2025-01-12 17:39:24,498 - Significant data drift detected in feature: Monetary-2022-08
+2025-01-12 17:39:24,500 - Significant data drift detected in feature: Frequency-2022-08
+2025-01-12 17:39:24,502 - Significant data drift detected in feature: ItemVariety-2022-08
+2025-01-12 17:39:24,504 - Significant data drift detected in feature: StoreVariety-2022-08
+2025-01-12 17:39:24,507 - Significant data drift detected in feature: Monetary-2022-09
+2025-01-12 17:39:24,509 - Significant data drift detected in feature: Frequency-2022-09
+2025-01-12 17:39:24,511 - Significant data drift detected in feature: ItemVariety-2022-09
+2025-01-12 17:39:24,513 - Significant data drift detected in feature: StoreVariety-2022-09
+2025-01-12 17:39:24,513 - Making predictions...
+2025-01-12 17:39:24,518 - Predictions saved to 'predictions.csv'.
+
+2025-01-12 17:39:24,518 - Evaluating model performance on actual outcomes...
+2025-01-12 17:42:42,338 - Step 1: Loading and Cleaning the Data...
+2025-01-12 17:42:42,381 - Data cleaning complete.
+
+2025-01-12 17:42:42,381 - Step 2: Filtering Outliers...
+2025-01-12 17:42:42,382 - Outlier filtering complete.
+
+2025-01-12 17:42:42,383 - Step 3: Splitting Data by Month...
+2025-01-12 17:42:42,448 - Monthly data splitting complete. Saved to 'monthly_segments/'.
+
+2025-01-12 17:42:42,448 - Step 4: Preparing Final Dataset...
+2025-01-12 17:42:42,466 - Validating dataset columns for training...
+2025-01-12 17:42:42,690 - Data preprocessing for model training complete.
+
+2025-01-12 17:42:42,690 - Step 5: Training the Best Model (Random Forest)...
+2025-01-12 17:42:42,924 - Random Forest model training complete.
+
+2025-01-12 17:42:42,944 - Trained model saved as 'final_model.pkl'.
+
+2025-01-12 17:42:42,944 - Loading new data from new_data.csv...
+2025-01-12 17:42:42,945 - Feature Monetary-2022-01 missing in new data. Filling with 0.
+2025-01-12 17:42:42,946 - Feature Frequency-2022-01 missing in new data. Filling with 0.
+2025-01-12 17:42:42,946 - Feature ItemVariety-2022-01 missing in new data. Filling with 0.
+2025-01-12 17:42:42,946 - Feature StoreVariety-2022-01 missing in new data. Filling with 0.
+2025-01-12 17:42:42,946 - Feature SubscriptionDuration missing in new data. Filling with 0.
+2025-01-12 17:42:42,946 - Feature Recency missing in new data. Filling with 0.
+2025-01-12 17:42:42,946 - Feature Monetary-2022-02 missing in new data. Filling with 0.
+2025-01-12 17:42:42,946 - Feature Frequency-2022-02 missing in new data. Filling with 0.
+2025-01-12 17:42:42,946 - Feature ItemVariety-2022-02 missing in new data. Filling with 0.
+2025-01-12 17:42:42,946 - Feature StoreVariety-2022-02 missing in new data. Filling with 0.
+2025-01-12 17:42:42,946 - Feature Monetary-2022-03 missing in new data. Filling with 0.
+2025-01-12 17:42:42,947 - Feature Frequency-2022-03 missing in new data. Filling with 0.
+2025-01-12 17:42:42,947 - Feature ItemVariety-2022-03 missing in new data. Filling with 0.
+2025-01-12 17:42:42,947 - Feature StoreVariety-2022-03 missing in new data. Filling with 0.
+2025-01-12 17:42:42,947 - Feature Monetary-2022-07 missing in new data. Filling with 0.
+2025-01-12 17:42:42,947 - Feature Frequency-2022-07 missing in new data. Filling with 0.
+2025-01-12 17:42:42,947 - Feature ItemVariety-2022-07 missing in new data. Filling with 0.
+2025-01-12 17:42:42,947 - Feature StoreVariety-2022-07 missing in new data. Filling with 0.
+2025-01-12 17:42:42,947 - Feature Monetary-2022-12 missing in new data. Filling with 0.
+2025-01-12 17:42:42,947 - Feature Frequency-2022-12 missing in new data. Filling with 0.
+2025-01-12 17:42:42,947 - Feature ItemVariety-2022-12 missing in new data. Filling with 0.
+2025-01-12 17:42:42,947 - Feature StoreVariety-2022-12 missing in new data. Filling with 0.
+2025-01-12 17:42:42,947 - Feature Monetary-2022-06 missing in new data. Filling with 0.
+2025-01-12 17:42:42,947 - Feature Frequency-2022-06 missing in new data. Filling with 0.
+2025-01-12 17:42:42,948 - Feature ItemVariety-2022-06 missing in new data. Filling with 0.
+2025-01-12 17:42:42,948 - Feature StoreVariety-2022-06 missing in new data. Filling with 0.
+2025-01-12 17:42:42,948 - Feature Monetary-2022-10 missing in new data. Filling with 0.
+2025-01-12 17:42:42,948 - Feature Frequency-2022-10 missing in new data. Filling with 0.
+2025-01-12 17:42:42,948 - Feature ItemVariety-2022-10 missing in new data. Filling with 0.
+2025-01-12 17:42:42,948 - Feature StoreVariety-2022-10 missing in new data. Filling with 0.
+2025-01-12 17:42:42,948 - Feature Monetary-2022-04 missing in new data. Filling with 0.
+2025-01-12 17:42:42,948 - Feature Frequency-2022-04 missing in new data. Filling with 0.
+2025-01-12 17:42:42,948 - Feature ItemVariety-2022-04 missing in new data. Filling with 0.
+2025-01-12 17:42:42,948 - Feature StoreVariety-2022-04 missing in new data. Filling with 0.
+2025-01-12 17:42:42,948 - Feature Monetary-2022-05 missing in new data. Filling with 0.
+2025-01-12 17:42:42,948 - Feature Frequency-2022-05 missing in new data. Filling with 0.
+2025-01-12 17:42:42,948 - Feature ItemVariety-2022-05 missing in new data. Filling with 0.
+2025-01-12 17:42:42,949 - Feature StoreVariety-2022-05 missing in new data. Filling with 0.
+2025-01-12 17:42:42,949 - Feature Monetary-2022-11 missing in new data. Filling with 0.
+2025-01-12 17:42:42,949 - Feature Frequency-2022-11 missing in new data. Filling with 0.
+2025-01-12 17:42:42,949 - Feature ItemVariety-2022-11 missing in new data. Filling with 0.
+2025-01-12 17:42:42,949 - Feature StoreVariety-2022-11 missing in new data. Filling with 0.
+2025-01-12 17:42:42,949 - Feature Monetary-2024-03 missing in new data. Filling with 0.
+2025-01-12 17:42:42,949 - Feature Frequency-2024-03 missing in new data. Filling with 0.
+2025-01-12 17:42:42,949 - Feature ItemVariety-2024-03 missing in new data. Filling with 0.
+2025-01-12 17:42:42,949 - Feature StoreVariety-2024-03 missing in new data. Filling with 0.
+2025-01-12 17:42:42,949 - Feature Monetary-2024-02 missing in new data. Filling with 0.
+2025-01-12 17:42:42,949 - Feature Frequency-2024-02 missing in new data. Filling with 0.
+2025-01-12 17:42:42,949 - Feature ItemVariety-2024-02 missing in new data. Filling with 0.
+2025-01-12 17:42:42,949 - Feature StoreVariety-2024-02 missing in new data. Filling with 0.
+2025-01-12 17:42:42,950 - Feature Monetary-2023-09 missing in new data. Filling with 0.
+2025-01-12 17:42:42,950 - Feature Frequency-2023-09 missing in new data. Filling with 0.
+2025-01-12 17:42:42,950 - Feature ItemVariety-2023-09 missing in new data. Filling with 0.
+2025-01-12 17:42:42,950 - Feature StoreVariety-2023-09 missing in new data. Filling with 0.
+2025-01-12 17:42:42,950 - Feature Monetary-2024-01 missing in new data. Filling with 0.
+2025-01-12 17:42:42,950 - Feature Frequency-2024-01 missing in new data. Filling with 0.
+2025-01-12 17:42:42,950 - Feature ItemVariety-2024-01 missing in new data. Filling with 0.
+2025-01-12 17:42:42,950 - Feature StoreVariety-2024-01 missing in new data. Filling with 0.
+2025-01-12 17:42:42,950 - Feature Monetary-2023-08 missing in new data. Filling with 0.
+2025-01-12 17:42:42,950 - Feature Frequency-2023-08 missing in new data. Filling with 0.
+2025-01-12 17:42:42,950 - Feature ItemVariety-2023-08 missing in new data. Filling with 0.
+2025-01-12 17:42:42,950 - Feature StoreVariety-2023-08 missing in new data. Filling with 0.
+2025-01-12 17:42:42,950 - Feature Monetary-2024-05 missing in new data. Filling with 0.
+2025-01-12 17:42:42,951 - Feature Frequency-2024-05 missing in new data. Filling with 0.
+2025-01-12 17:42:42,951 - Feature ItemVariety-2024-05 missing in new data. Filling with 0.
+2025-01-12 17:42:42,951 - Feature StoreVariety-2024-05 missing in new data. Filling with 0.
+2025-01-12 17:42:42,951 - Feature Monetary-2024-04 missing in new data. Filling with 0.
+2025-01-12 17:42:42,951 - Feature Frequency-2024-04 missing in new data. Filling with 0.
+2025-01-12 17:42:42,951 - Feature ItemVariety-2024-04 missing in new data. Filling with 0.
+2025-01-12 17:42:42,951 - Feature StoreVariety-2024-04 missing in new data. Filling with 0.
+2025-01-12 17:42:42,951 - Feature Monetary-2023-03 missing in new data. Filling with 0.
+2025-01-12 17:42:42,951 - Feature Frequency-2023-03 missing in new data. Filling with 0.
+2025-01-12 17:42:42,951 - Feature ItemVariety-2023-03 missing in new data. Filling with 0.
+2025-01-12 17:42:42,951 - Feature StoreVariety-2023-03 missing in new data. Filling with 0.
+2025-01-12 17:42:42,951 - Feature Monetary-2023-02 missing in new data. Filling with 0.
+2025-01-12 17:42:42,952 - Feature Frequency-2023-02 missing in new data. Filling with 0.
+2025-01-12 17:42:42,952 - Feature ItemVariety-2023-02 missing in new data. Filling with 0.
+2025-01-12 17:42:42,952 - Feature StoreVariety-2023-02 missing in new data. Filling with 0.
+2025-01-12 17:42:42,952 - Feature Monetary-2023-01 missing in new data. Filling with 0.
+2025-01-12 17:42:42,952 - Feature Frequency-2023-01 missing in new data. Filling with 0.
+2025-01-12 17:42:42,952 - Feature ItemVariety-2023-01 missing in new data. Filling with 0.
+2025-01-12 17:42:42,952 - Feature StoreVariety-2023-01 missing in new data. Filling with 0.
+2025-01-12 17:42:42,952 - Feature Monetary-2023-11 missing in new data. Filling with 0.
+2025-01-12 17:42:42,952 - Feature Frequency-2023-11 missing in new data. Filling with 0.
+2025-01-12 17:42:42,952 - Feature ItemVariety-2023-11 missing in new data. Filling with 0.
+2025-01-12 17:42:42,952 - Feature StoreVariety-2023-11 missing in new data. Filling with 0.
+2025-01-12 17:42:42,952 - Feature Monetary-2023-05 missing in new data. Filling with 0.
+2025-01-12 17:42:42,953 - Feature Frequency-2023-05 missing in new data. Filling with 0.
+2025-01-12 17:42:42,953 - Feature ItemVariety-2023-05 missing in new data. Filling with 0.
+2025-01-12 17:42:42,953 - Feature StoreVariety-2023-05 missing in new data. Filling with 0.
+2025-01-12 17:42:42,953 - Feature Monetary-2023-04 missing in new data. Filling with 0.
+2025-01-12 17:42:42,953 - Feature Frequency-2023-04 missing in new data. Filling with 0.
+2025-01-12 17:42:42,953 - Feature ItemVariety-2023-04 missing in new data. Filling with 0.
+2025-01-12 17:42:42,953 - Feature StoreVariety-2023-04 missing in new data. Filling with 0.
+2025-01-12 17:42:42,953 - Feature Monetary-2023-10 missing in new data. Filling with 0.
+2025-01-12 17:42:42,953 - Feature Frequency-2023-10 missing in new data. Filling with 0.
+2025-01-12 17:42:42,953 - Feature ItemVariety-2023-10 missing in new data. Filling with 0.
+2025-01-12 17:42:42,953 - Feature StoreVariety-2023-10 missing in new data. Filling with 0.
+2025-01-12 17:42:42,953 - Feature Monetary-2023-06 missing in new data. Filling with 0.
+2025-01-12 17:42:42,954 - Feature Frequency-2023-06 missing in new data. Filling with 0.
+2025-01-12 17:42:42,954 - Feature ItemVariety-2023-06 missing in new data. Filling with 0.
+2025-01-12 17:42:42,954 - Feature StoreVariety-2023-06 missing in new data. Filling with 0.
+2025-01-12 17:42:42,954 - Feature Monetary-2023-12 missing in new data. Filling with 0.
+2025-01-12 17:42:42,954 - Feature Frequency-2023-12 missing in new data. Filling with 0.
+2025-01-12 17:42:42,954 - Feature ItemVariety-2023-12 missing in new data. Filling with 0.
+2025-01-12 17:42:42,954 - Feature StoreVariety-2023-12 missing in new data. Filling with 0.
+2025-01-12 17:42:42,954 - Feature Monetary-2023-07 missing in new data. Filling with 0.
+2025-01-12 17:42:42,954 - Feature Frequency-2023-07 missing in new data. Filling with 0.
+2025-01-12 17:42:42,955 - Feature ItemVariety-2023-07 missing in new data. Filling with 0.
+2025-01-12 17:42:42,955 - Feature StoreVariety-2023-07 missing in new data. Filling with 0.
+2025-01-12 17:42:42,955 - Feature Monetary-2022-08 missing in new data. Filling with 0.
+2025-01-12 17:42:42,955 - Feature Frequency-2022-08 missing in new data. Filling with 0.
+2025-01-12 17:42:42,955 - Feature ItemVariety-2022-08 missing in new data. Filling with 0.
+2025-01-12 17:42:42,955 - Feature StoreVariety-2022-08 missing in new data. Filling with 0.
+2025-01-12 17:42:42,955 - Feature Monetary-2022-09 missing in new data. Filling with 0.
+2025-01-12 17:42:42,955 - Feature Frequency-2022-09 missing in new data. Filling with 0.
+2025-01-12 17:42:42,955 - Feature ItemVariety-2022-09 missing in new data. Filling with 0.
+2025-01-12 17:42:42,956 - Feature StoreVariety-2022-09 missing in new data. Filling with 0.
+2025-01-12 17:42:42,957 - Checking for data drift...
+2025-01-12 17:42:42,959 - Significant data drift detected in feature: Monetary-2022-01
+2025-01-12 17:42:42,962 - Significant data drift detected in feature: Frequency-2022-01
+2025-01-12 17:42:42,964 - Significant data drift detected in feature: ItemVariety-2022-01
+2025-01-12 17:42:42,966 - Significant data drift detected in feature: StoreVariety-2022-01
+2025-01-12 17:42:42,968 - Significant data drift detected in feature: SubscriptionDuration
+2025-01-12 17:42:42,971 - Significant data drift detected in feature: Recency
+2025-01-12 17:42:42,973 - Significant data drift detected in feature: Monetary-2022-02
+2025-01-12 17:42:42,975 - Significant data drift detected in feature: Frequency-2022-02
+2025-01-12 17:42:42,977 - Significant data drift detected in feature: ItemVariety-2022-02
+2025-01-12 17:42:42,979 - Significant data drift detected in feature: StoreVariety-2022-02
+2025-01-12 17:42:42,982 - Significant data drift detected in feature: Monetary-2022-03
+2025-01-12 17:42:42,984 - Significant data drift detected in feature: Frequency-2022-03
+2025-01-12 17:42:42,986 - Significant data drift detected in feature: ItemVariety-2022-03
+2025-01-12 17:42:42,988 - Significant data drift detected in feature: StoreVariety-2022-03
+2025-01-12 17:42:42,990 - Significant data drift detected in feature: Monetary-2022-07
+2025-01-12 17:42:42,992 - Significant data drift detected in feature: Frequency-2022-07
+2025-01-12 17:42:42,994 - Significant data drift detected in feature: ItemVariety-2022-07
+2025-01-12 17:42:42,996 - Significant data drift detected in feature: StoreVariety-2022-07
+2025-01-12 17:42:42,999 - Significant data drift detected in feature: Monetary-2022-12
+2025-01-12 17:42:43,001 - Significant data drift detected in feature: Frequency-2022-12
+2025-01-12 17:42:43,003 - Significant data drift detected in feature: ItemVariety-2022-12
+2025-01-12 17:42:43,005 - Significant data drift detected in feature: StoreVariety-2022-12
+2025-01-12 17:42:43,007 - Significant data drift detected in feature: Monetary-2022-06
+2025-01-12 17:42:43,009 - Significant data drift detected in feature: Frequency-2022-06
+2025-01-12 17:42:43,011 - Significant data drift detected in feature: ItemVariety-2022-06
+2025-01-12 17:42:43,013 - Significant data drift detected in feature: StoreVariety-2022-06
+2025-01-12 17:42:43,015 - Significant data drift detected in feature: Monetary-2022-10
+2025-01-12 17:42:43,017 - Significant data drift detected in feature: Frequency-2022-10
+2025-01-12 17:42:43,019 - Significant data drift detected in feature: ItemVariety-2022-10
+2025-01-12 17:42:43,021 - Significant data drift detected in feature: StoreVariety-2022-10
+2025-01-12 17:42:43,023 - Significant data drift detected in feature: Monetary-2022-04
+2025-01-12 17:42:43,025 - Significant data drift detected in feature: Frequency-2022-04
+2025-01-12 17:42:43,027 - Significant data drift detected in feature: ItemVariety-2022-04
+2025-01-12 17:42:43,029 - Significant data drift detected in feature: StoreVariety-2022-04
+2025-01-12 17:42:43,031 - Significant data drift detected in feature: Monetary-2022-05
+2025-01-12 17:42:43,033 - Significant data drift detected in feature: Frequency-2022-05
+2025-01-12 17:42:43,035 - Significant data drift detected in feature: ItemVariety-2022-05
+2025-01-12 17:42:43,037 - Significant data drift detected in feature: StoreVariety-2022-05
+2025-01-12 17:42:43,039 - Significant data drift detected in feature: Monetary-2022-11
+2025-01-12 17:42:43,041 - Significant data drift detected in feature: Frequency-2022-11
+2025-01-12 17:42:43,044 - Significant data drift detected in feature: ItemVariety-2022-11
+2025-01-12 17:42:43,045 - Significant data drift detected in feature: StoreVariety-2022-11
+2025-01-12 17:42:43,047 - Significant data drift detected in feature: Monetary-2024-03
+2025-01-12 17:42:43,050 - Significant data drift detected in feature: Frequency-2024-03
+2025-01-12 17:42:43,052 - Significant data drift detected in feature: ItemVariety-2024-03
+2025-01-12 17:42:43,053 - Significant data drift detected in feature: StoreVariety-2024-03
+2025-01-12 17:42:43,056 - Significant data drift detected in feature: Monetary-2024-02
+2025-01-12 17:42:43,058 - Significant data drift detected in feature: Frequency-2024-02
+2025-01-12 17:42:43,060 - Significant data drift detected in feature: ItemVariety-2024-02
+2025-01-12 17:42:43,062 - Significant data drift detected in feature: StoreVariety-2024-02
+2025-01-12 17:42:43,064 - Significant data drift detected in feature: Monetary-2023-09
+2025-01-12 17:42:43,066 - Significant data drift detected in feature: Frequency-2023-09
+2025-01-12 17:42:43,068 - Significant data drift detected in feature: ItemVariety-2023-09
+2025-01-12 17:42:43,070 - Significant data drift detected in feature: StoreVariety-2023-09
+2025-01-12 17:42:43,072 - Significant data drift detected in feature: Monetary-2024-01
+2025-01-12 17:42:43,074 - Significant data drift detected in feature: Frequency-2024-01
+2025-01-12 17:42:43,076 - Significant data drift detected in feature: ItemVariety-2024-01
+2025-01-12 17:42:43,078 - Significant data drift detected in feature: StoreVariety-2024-01
+2025-01-12 17:42:43,080 - Significant data drift detected in feature: Monetary-2023-08
+2025-01-12 17:42:43,082 - Significant data drift detected in feature: Frequency-2023-08
+2025-01-12 17:42:43,084 - Significant data drift detected in feature: ItemVariety-2023-08
+2025-01-12 17:42:43,086 - Significant data drift detected in feature: StoreVariety-2023-08
+2025-01-12 17:42:43,088 - Significant data drift detected in feature: Monetary-2024-05
+2025-01-12 17:42:43,090 - Significant data drift detected in feature: Frequency-2024-05
+2025-01-12 17:42:43,092 - Significant data drift detected in feature: ItemVariety-2024-05
+2025-01-12 17:42:43,094 - Significant data drift detected in feature: StoreVariety-2024-05
+2025-01-12 17:42:43,096 - Significant data drift detected in feature: Monetary-2024-04
+2025-01-12 17:42:43,098 - Significant data drift detected in feature: Frequency-2024-04
+2025-01-12 17:42:43,100 - Significant data drift detected in feature: ItemVariety-2024-04
+2025-01-12 17:42:43,102 - Significant data drift detected in feature: StoreVariety-2024-04
+2025-01-12 17:42:43,104 - Significant data drift detected in feature: Monetary-2023-03
+2025-01-12 17:42:43,106 - Significant data drift detected in feature: Frequency-2023-03
+2025-01-12 17:42:43,108 - Significant data drift detected in feature: ItemVariety-2023-03
+2025-01-12 17:42:43,110 - Significant data drift detected in feature: StoreVariety-2023-03
+2025-01-12 17:42:43,112 - Significant data drift detected in feature: Monetary-2023-02
+2025-01-12 17:42:43,114 - Significant data drift detected in feature: Frequency-2023-02
+2025-01-12 17:42:43,116 - Significant data drift detected in feature: ItemVariety-2023-02
+2025-01-12 17:42:43,118 - Significant data drift detected in feature: StoreVariety-2023-02
+2025-01-12 17:42:43,120 - Significant data drift detected in feature: Monetary-2023-01
+2025-01-12 17:42:43,122 - Significant data drift detected in feature: Frequency-2023-01
+2025-01-12 17:42:43,124 - Significant data drift detected in feature: ItemVariety-2023-01
+2025-01-12 17:42:43,126 - Significant data drift detected in feature: StoreVariety-2023-01
+2025-01-12 17:42:43,128 - Significant data drift detected in feature: Monetary-2023-11
+2025-01-12 17:42:43,131 - Significant data drift detected in feature: Frequency-2023-11
+2025-01-12 17:42:43,133 - Significant data drift detected in feature: ItemVariety-2023-11
+2025-01-12 17:42:43,135 - Significant data drift detected in feature: StoreVariety-2023-11
+2025-01-12 17:42:43,137 - Significant data drift detected in feature: Monetary-2023-05
+2025-01-12 17:42:43,139 - Significant data drift detected in feature: Frequency-2023-05
+2025-01-12 17:42:43,141 - Significant data drift detected in feature: ItemVariety-2023-05
+2025-01-12 17:42:43,143 - Significant data drift detected in feature: StoreVariety-2023-05
+2025-01-12 17:42:43,145 - Significant data drift detected in feature: Monetary-2023-04
+2025-01-12 17:42:43,147 - Significant data drift detected in feature: Frequency-2023-04
+2025-01-12 17:42:43,149 - Significant data drift detected in feature: ItemVariety-2023-04
+2025-01-12 17:42:43,151 - Significant data drift detected in feature: StoreVariety-2023-04
+2025-01-12 17:42:43,153 - Significant data drift detected in feature: Monetary-2023-10
+2025-01-12 17:42:43,155 - Significant data drift detected in feature: Frequency-2023-10
+2025-01-12 17:42:43,157 - Significant data drift detected in feature: ItemVariety-2023-10
+2025-01-12 17:42:43,159 - Significant data drift detected in feature: StoreVariety-2023-10
+2025-01-12 17:42:43,161 - Significant data drift detected in feature: Monetary-2023-06
+2025-01-12 17:42:43,163 - Significant data drift detected in feature: Frequency-2023-06
+2025-01-12 17:42:43,165 - Significant data drift detected in feature: ItemVariety-2023-06
+2025-01-12 17:42:43,167 - Significant data drift detected in feature: StoreVariety-2023-06
+2025-01-12 17:42:43,169 - Significant data drift detected in feature: Monetary-2023-12
+2025-01-12 17:42:43,171 - Significant data drift detected in feature: Frequency-2023-12
+2025-01-12 17:42:43,173 - Significant data drift detected in feature: ItemVariety-2023-12
+2025-01-12 17:42:43,175 - Significant data drift detected in feature: StoreVariety-2023-12
+2025-01-12 17:42:43,177 - Significant data drift detected in feature: Monetary-2023-07
+2025-01-12 17:42:43,179 - Significant data drift detected in feature: Frequency-2023-07
+2025-01-12 17:42:43,182 - Significant data drift detected in feature: ItemVariety-2023-07
+2025-01-12 17:42:43,183 - Significant data drift detected in feature: StoreVariety-2023-07
+2025-01-12 17:42:43,185 - Significant data drift detected in feature: Monetary-2022-08
+2025-01-12 17:42:43,188 - Significant data drift detected in feature: Frequency-2022-08
+2025-01-12 17:42:43,190 - Significant data drift detected in feature: ItemVariety-2022-08
+2025-01-12 17:42:43,191 - Significant data drift detected in feature: StoreVariety-2022-08
+2025-01-12 17:42:43,194 - Significant data drift detected in feature: Monetary-2022-09
+2025-01-12 17:42:43,196 - Significant data drift detected in feature: Frequency-2022-09
+2025-01-12 17:42:43,198 - Significant data drift detected in feature: ItemVariety-2022-09
+2025-01-12 17:42:43,200 - Significant data drift detected in feature: StoreVariety-2022-09
+2025-01-12 17:42:43,200 - Making predictions...
+2025-01-12 17:42:43,206 - Predictions saved to 'predictions.csv'.
+
+2025-01-12 17:42:43,206 - Evaluating model performance on actual outcomes...
+2025-01-12 18:06:47,191 - Step 1: Loading and Cleaning the Data...
+2025-01-12 18:06:47,308 - Data cleaning complete.
+
+2025-01-12 18:06:47,308 - Step 2: Filtering Outliers...
+2025-01-12 18:06:47,310 - Outlier filtering complete.
+
+2025-01-12 18:06:47,311 - Step 3: Splitting Data by Month...
+2025-01-12 18:06:47,377 - Monthly data splitting complete. Saved to 'monthly_segments/'.
+
+2025-01-12 18:06:47,378 - Step 4: Preparing Final Dataset...
+2025-01-12 18:06:47,396 - Validating dataset columns for training...
+2025-01-12 18:06:47,745 - Data preprocessing for model training complete.
+
+2025-01-12 18:06:47,745 - Step 5: Training the Best Model (Random Forest)...
+2025-01-12 18:06:47,911 - Random Forest model training complete.
+
+2025-01-12 18:06:47,931 - Trained model saved as 'final_model.pkl'.
+
+2025-01-12 18:06:47,931 - Loading new data from new_data.csv...
+2025-01-12 18:06:47,932 - Feature Monetary-2022-01 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,932 - Feature Frequency-2022-01 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,932 - Feature ItemVariety-2022-01 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,932 - Feature StoreVariety-2022-01 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,933 - Feature SubscriptionDuration is missing in new_data. Setting default value.
+2025-01-12 18:06:47,933 - Feature Recency is missing in new_data. Setting default value.
+2025-01-12 18:06:47,933 - Feature Monetary-2022-02 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,933 - Feature Frequency-2022-02 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,933 - Feature ItemVariety-2022-02 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,933 - Feature StoreVariety-2022-02 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,933 - Feature Monetary-2022-03 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,933 - Feature Frequency-2022-03 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,933 - Feature ItemVariety-2022-03 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,933 - Feature StoreVariety-2022-03 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,933 - Feature Monetary-2022-07 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,933 - Feature Frequency-2022-07 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,934 - Feature ItemVariety-2022-07 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,934 - Feature StoreVariety-2022-07 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,934 - Feature Monetary-2022-12 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,934 - Feature Frequency-2022-12 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,934 - Feature ItemVariety-2022-12 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,934 - Feature StoreVariety-2022-12 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,934 - Feature Monetary-2022-06 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,934 - Feature Frequency-2022-06 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,934 - Feature ItemVariety-2022-06 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,934 - Feature StoreVariety-2022-06 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,934 - Feature Monetary-2022-10 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,934 - Feature Frequency-2022-10 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,934 - Feature ItemVariety-2022-10 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,935 - Feature StoreVariety-2022-10 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,935 - Feature Monetary-2022-04 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,935 - Feature Frequency-2022-04 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,935 - Feature ItemVariety-2022-04 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,935 - Feature StoreVariety-2022-04 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,935 - Feature Monetary-2022-05 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,935 - Feature Frequency-2022-05 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,935 - Feature ItemVariety-2022-05 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,935 - Feature StoreVariety-2022-05 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,935 - Feature Monetary-2022-11 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,935 - Feature Frequency-2022-11 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,935 - Feature ItemVariety-2022-11 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,935 - Feature StoreVariety-2022-11 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,936 - Feature Monetary-2024-03 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,936 - Feature Frequency-2024-03 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,936 - Feature ItemVariety-2024-03 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,936 - Feature StoreVariety-2024-03 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,936 - Feature Monetary-2024-02 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,936 - Feature Frequency-2024-02 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,936 - Feature ItemVariety-2024-02 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,936 - Feature StoreVariety-2024-02 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,936 - Feature Monetary-2023-09 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,936 - Feature Frequency-2023-09 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,936 - Feature ItemVariety-2023-09 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,936 - Feature StoreVariety-2023-09 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,937 - Feature Monetary-2024-01 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,937 - Feature Frequency-2024-01 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,937 - Feature ItemVariety-2024-01 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,937 - Feature StoreVariety-2024-01 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,937 - Feature Monetary-2023-08 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,937 - Feature Frequency-2023-08 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,937 - Feature ItemVariety-2023-08 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,937 - Feature StoreVariety-2023-08 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,937 - Feature Monetary-2024-05 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,937 - Feature Frequency-2024-05 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,937 - Feature ItemVariety-2024-05 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,937 - Feature StoreVariety-2024-05 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,938 - Feature Monetary-2024-04 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,938 - Feature Frequency-2024-04 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,938 - Feature ItemVariety-2024-04 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,938 - Feature StoreVariety-2024-04 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,938 - Feature Monetary-2023-03 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,938 - Feature Frequency-2023-03 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,938 - Feature ItemVariety-2023-03 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,938 - Feature StoreVariety-2023-03 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,938 - Feature Monetary-2023-02 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,938 - Feature Frequency-2023-02 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,938 - Feature ItemVariety-2023-02 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,939 - Feature StoreVariety-2023-02 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,939 - Feature Monetary-2023-01 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,939 - Feature Frequency-2023-01 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,939 - Feature ItemVariety-2023-01 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,939 - Feature StoreVariety-2023-01 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,939 - Feature Monetary-2023-11 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,939 - Feature Frequency-2023-11 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,939 - Feature ItemVariety-2023-11 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,939 - Feature StoreVariety-2023-11 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,939 - Feature Monetary-2023-05 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,939 - Feature Frequency-2023-05 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,940 - Feature ItemVariety-2023-05 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,940 - Feature StoreVariety-2023-05 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,940 - Feature Monetary-2023-04 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,940 - Feature Frequency-2023-04 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,940 - Feature ItemVariety-2023-04 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,940 - Feature StoreVariety-2023-04 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,940 - Feature Monetary-2023-10 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,940 - Feature Frequency-2023-10 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,940 - Feature ItemVariety-2023-10 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,940 - Feature StoreVariety-2023-10 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,940 - Feature Monetary-2023-06 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,941 - Feature Frequency-2023-06 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,941 - Feature ItemVariety-2023-06 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,941 - Feature StoreVariety-2023-06 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,941 - Feature Monetary-2023-12 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,941 - Feature Frequency-2023-12 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,941 - Feature ItemVariety-2023-12 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,941 - Feature StoreVariety-2023-12 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,941 - Feature Monetary-2023-07 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,941 - Feature Frequency-2023-07 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,942 - Feature ItemVariety-2023-07 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,942 - Feature StoreVariety-2023-07 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,942 - Feature Monetary-2022-08 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,942 - Feature Frequency-2022-08 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,942 - Feature ItemVariety-2022-08 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,942 - Feature StoreVariety-2022-08 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,942 - Feature Monetary-2022-09 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,942 - Feature Frequency-2022-09 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,942 - Feature ItemVariety-2022-09 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,943 - Feature StoreVariety-2022-09 is missing in new_data. Setting default value.
+2025-01-12 18:06:47,943 - Checking for data drift...
+2025-01-12 18:06:47,945 - Significant data drift detected in feature: Monetary-2022-01
+2025-01-12 18:06:47,948 - Significant data drift detected in feature: Frequency-2022-01
+2025-01-12 18:06:47,950 - Significant data drift detected in feature: ItemVariety-2022-01
+2025-01-12 18:06:47,952 - Significant data drift detected in feature: StoreVariety-2022-01
+2025-01-12 18:06:47,955 - Significant data drift detected in feature: SubscriptionDuration
+2025-01-12 18:06:47,957 - Significant data drift detected in feature: Recency
+2025-01-12 18:06:47,959 - Significant data drift detected in feature: Monetary-2022-02
+2025-01-12 18:06:47,961 - Significant data drift detected in feature: Frequency-2022-02
+2025-01-12 18:06:47,963 - Significant data drift detected in feature: ItemVariety-2022-02
+2025-01-12 18:06:47,965 - Significant data drift detected in feature: StoreVariety-2022-02
+2025-01-12 18:06:47,967 - Significant data drift detected in feature: Monetary-2022-03
+2025-01-12 18:06:47,969 - Significant data drift detected in feature: Frequency-2022-03
+2025-01-12 18:06:47,971 - Significant data drift detected in feature: ItemVariety-2022-03
+2025-01-12 18:06:47,973 - Significant data drift detected in feature: StoreVariety-2022-03
+2025-01-12 18:06:47,975 - Significant data drift detected in feature: Monetary-2022-07
+2025-01-12 18:06:47,978 - Significant data drift detected in feature: Frequency-2022-07
+2025-01-12 18:06:47,980 - Significant data drift detected in feature: ItemVariety-2022-07
+2025-01-12 18:06:47,982 - Significant data drift detected in feature: StoreVariety-2022-07
+2025-01-12 18:06:47,984 - Significant data drift detected in feature: Monetary-2022-12
+2025-01-12 18:06:47,986 - Significant data drift detected in feature: Frequency-2022-12
+2025-01-12 18:06:47,988 - Significant data drift detected in feature: ItemVariety-2022-12
+2025-01-12 18:06:47,990 - Significant data drift detected in feature: StoreVariety-2022-12
+2025-01-12 18:06:47,992 - Significant data drift detected in feature: Monetary-2022-06
+2025-01-12 18:06:47,994 - Significant data drift detected in feature: Frequency-2022-06
+2025-01-12 18:06:47,996 - Significant data drift detected in feature: ItemVariety-2022-06
+2025-01-12 18:06:47,998 - Significant data drift detected in feature: StoreVariety-2022-06
+2025-01-12 18:06:48,000 - Significant data drift detected in feature: Monetary-2022-10
+2025-01-12 18:06:48,002 - Significant data drift detected in feature: Frequency-2022-10
+2025-01-12 18:06:48,004 - Significant data drift detected in feature: ItemVariety-2022-10
+2025-01-12 18:06:48,006 - Significant data drift detected in feature: StoreVariety-2022-10
+2025-01-12 18:06:48,008 - Significant data drift detected in feature: Monetary-2022-04
+2025-01-12 18:06:48,010 - Significant data drift detected in feature: Frequency-2022-04
+2025-01-12 18:06:48,012 - Significant data drift detected in feature: ItemVariety-2022-04
+2025-01-12 18:06:48,014 - Significant data drift detected in feature: StoreVariety-2022-04
+2025-01-12 18:06:48,016 - Significant data drift detected in feature: Monetary-2022-05
+2025-01-12 18:06:48,018 - Significant data drift detected in feature: Frequency-2022-05
+2025-01-12 18:06:48,020 - Significant data drift detected in feature: ItemVariety-2022-05
+2025-01-12 18:06:48,022 - Significant data drift detected in feature: StoreVariety-2022-05
+2025-01-12 18:06:48,024 - Significant data drift detected in feature: Monetary-2022-11
+2025-01-12 18:06:48,027 - Significant data drift detected in feature: Frequency-2022-11
+2025-01-12 18:06:48,029 - Significant data drift detected in feature: ItemVariety-2022-11
+2025-01-12 18:06:48,031 - Significant data drift detected in feature: StoreVariety-2022-11
+2025-01-12 18:06:48,033 - Significant data drift detected in feature: Monetary-2024-03
+2025-01-12 18:06:48,035 - Significant data drift detected in feature: Frequency-2024-03
+2025-01-12 18:06:48,037 - Significant data drift detected in feature: ItemVariety-2024-03
+2025-01-12 18:06:48,039 - Significant data drift detected in feature: StoreVariety-2024-03
+2025-01-12 18:06:48,041 - Significant data drift detected in feature: Monetary-2024-02
+2025-01-12 18:06:48,043 - Significant data drift detected in feature: Frequency-2024-02
+2025-01-12 18:06:48,045 - Significant data drift detected in feature: ItemVariety-2024-02
+2025-01-12 18:06:48,047 - Significant data drift detected in feature: StoreVariety-2024-02
+2025-01-12 18:06:48,049 - Significant data drift detected in feature: Monetary-2023-09
+2025-01-12 18:06:48,051 - Significant data drift detected in feature: Frequency-2023-09
+2025-01-12 18:06:48,053 - Significant data drift detected in feature: ItemVariety-2023-09
+2025-01-12 18:06:48,055 - Significant data drift detected in feature: StoreVariety-2023-09
+2025-01-12 18:06:48,057 - Significant data drift detected in feature: Monetary-2024-01
+2025-01-12 18:06:48,059 - Significant data drift detected in feature: Frequency-2024-01
+2025-01-12 18:06:48,061 - Significant data drift detected in feature: ItemVariety-2024-01
+2025-01-12 18:06:48,063 - Significant data drift detected in feature: StoreVariety-2024-01
+2025-01-12 18:06:48,065 - Significant data drift detected in feature: Monetary-2023-08
+2025-01-12 18:06:48,067 - Significant data drift detected in feature: Frequency-2023-08
+2025-01-12 18:06:48,069 - Significant data drift detected in feature: ItemVariety-2023-08
+2025-01-12 18:06:48,071 - Significant data drift detected in feature: StoreVariety-2023-08
+2025-01-12 18:06:48,073 - Significant data drift detected in feature: Monetary-2024-05
+2025-01-12 18:06:48,075 - Significant data drift detected in feature: Frequency-2024-05
+2025-01-12 18:06:48,078 - Significant data drift detected in feature: ItemVariety-2024-05
+2025-01-12 18:06:48,079 - Significant data drift detected in feature: StoreVariety-2024-05
+2025-01-12 18:06:48,082 - Significant data drift detected in feature: Monetary-2024-04
+2025-01-12 18:06:48,084 - Significant data drift detected in feature: Frequency-2024-04
+2025-01-12 18:06:48,086 - Significant data drift detected in feature: ItemVariety-2024-04
+2025-01-12 18:06:48,088 - Significant data drift detected in feature: StoreVariety-2024-04
+2025-01-12 18:06:48,090 - Significant data drift detected in feature: Monetary-2023-03
+2025-01-12 18:06:48,092 - Significant data drift detected in feature: Frequency-2023-03
+2025-01-12 18:06:48,094 - Significant data drift detected in feature: ItemVariety-2023-03
+2025-01-12 18:06:48,096 - Significant data drift detected in feature: StoreVariety-2023-03
+2025-01-12 18:06:48,098 - Significant data drift detected in feature: Monetary-2023-02
+2025-01-12 18:06:48,100 - Significant data drift detected in feature: Frequency-2023-02
+2025-01-12 18:06:48,102 - Significant data drift detected in feature: ItemVariety-2023-02
+2025-01-12 18:06:48,104 - Significant data drift detected in feature: StoreVariety-2023-02
+2025-01-12 18:06:48,106 - Significant data drift detected in feature: Monetary-2023-01
+2025-01-12 18:06:48,108 - Significant data drift detected in feature: Frequency-2023-01
+2025-01-12 18:06:48,110 - Significant data drift detected in feature: ItemVariety-2023-01
+2025-01-12 18:06:48,112 - Significant data drift detected in feature: StoreVariety-2023-01
+2025-01-12 18:06:48,114 - Significant data drift detected in feature: Monetary-2023-11
+2025-01-12 18:06:48,116 - Significant data drift detected in feature: Frequency-2023-11
+2025-01-12 18:06:48,118 - Significant data drift detected in feature: ItemVariety-2023-11
+2025-01-12 18:06:48,120 - Significant data drift detected in feature: StoreVariety-2023-11
+2025-01-12 18:06:48,122 - Significant data drift detected in feature: Monetary-2023-05
+2025-01-12 18:06:48,124 - Significant data drift detected in feature: Frequency-2023-05
+2025-01-12 18:06:48,126 - Significant data drift detected in feature: ItemVariety-2023-05
+2025-01-12 18:06:48,128 - Significant data drift detected in feature: StoreVariety-2023-05
+2025-01-12 18:06:48,130 - Significant data drift detected in feature: Monetary-2023-04
+2025-01-12 18:06:48,133 - Significant data drift detected in feature: Frequency-2023-04
+2025-01-12 18:06:48,135 - Significant data drift detected in feature: ItemVariety-2023-04
+2025-01-12 18:06:48,137 - Significant data drift detected in feature: StoreVariety-2023-04
+2025-01-12 18:06:48,139 - Significant data drift detected in feature: Monetary-2023-10
+2025-01-12 18:06:48,141 - Significant data drift detected in feature: Frequency-2023-10
+2025-01-12 18:06:48,144 - Significant data drift detected in feature: ItemVariety-2023-10
+2025-01-12 18:06:48,146 - Significant data drift detected in feature: StoreVariety-2023-10
+2025-01-12 18:06:48,148 - Significant data drift detected in feature: Monetary-2023-06
+2025-01-12 18:06:48,150 - Significant data drift detected in feature: Frequency-2023-06
+2025-01-12 18:06:48,152 - Significant data drift detected in feature: ItemVariety-2023-06
+2025-01-12 18:06:48,154 - Significant data drift detected in feature: StoreVariety-2023-06
+2025-01-12 18:06:48,156 - Significant data drift detected in feature: Monetary-2023-12
+2025-01-12 18:06:48,158 - Significant data drift detected in feature: Frequency-2023-12
+2025-01-12 18:06:48,161 - Significant data drift detected in feature: ItemVariety-2023-12
+2025-01-12 18:06:48,162 - Significant data drift detected in feature: StoreVariety-2023-12
+2025-01-12 18:06:48,164 - Significant data drift detected in feature: Monetary-2023-07
+2025-01-12 18:06:48,167 - Significant data drift detected in feature: Frequency-2023-07
+2025-01-12 18:06:48,169 - Significant data drift detected in feature: ItemVariety-2023-07
+2025-01-12 18:06:48,171 - Significant data drift detected in feature: StoreVariety-2023-07
+2025-01-12 18:06:48,173 - Significant data drift detected in feature: Monetary-2022-08
+2025-01-12 18:06:48,175 - Significant data drift detected in feature: Frequency-2022-08
+2025-01-12 18:06:48,177 - Significant data drift detected in feature: ItemVariety-2022-08
+2025-01-12 18:06:48,179 - Significant data drift detected in feature: StoreVariety-2022-08
+2025-01-12 18:06:48,181 - Significant data drift detected in feature: Monetary-2022-09
+2025-01-12 18:06:48,183 - Significant data drift detected in feature: Frequency-2022-09
+2025-01-12 18:06:48,185 - Significant data drift detected in feature: ItemVariety-2022-09
+2025-01-12 18:06:48,187 - Significant data drift detected in feature: StoreVariety-2022-09
+2025-01-12 18:06:48,187 - Making predictions...
+2025-01-12 18:10:22,207 - Step 1: Loading and Cleaning the Data...
+2025-01-12 18:10:22,322 - Data cleaning complete.
+
+2025-01-12 18:10:22,322 - Step 2: Filtering Outliers...
+2025-01-12 18:10:22,323 - Outlier filtering complete.
+
+2025-01-12 18:10:22,325 - Step 3: Splitting Data by Month...
+2025-01-12 18:10:22,396 - Monthly data splitting complete. Saved to 'monthly_segments/'.
+
+2025-01-12 18:10:22,396 - Step 4: Preparing Final Dataset...
+2025-01-12 18:10:22,414 - Validating dataset columns for training...
+2025-01-12 18:10:22,674 - Data preprocessing for model training complete.
+
+2025-01-12 18:10:22,674 - Step 5: Training the Best Model (Random Forest)...
+2025-01-12 18:10:22,925 - Random Forest model training complete.
+
+2025-01-12 18:10:22,946 - Trained model saved as 'final_model.pkl'.
+

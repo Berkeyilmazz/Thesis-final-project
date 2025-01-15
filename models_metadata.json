@@ -1,0 +1,126 @@
+{
+    "models": [
+        {
+            "model_name": "RandomForestClassifier",
+            "model_file": "random_forest.pkl",
+            "best_parameters": {
+                "max_depth": 20,
+                "min_samples_leaf": 2,
+                "min_samples_split": 2
+            },
+            "evaluation_metrics": {
+                "accuracy": 0.86,
+                "precision": 0.85,
+                "recall": 0.89,
+                "f1_score": 0.87,
+                "roc_auc": 1.0
+            },
+            "confusion_matrix_figure": "Figure 3.1: Confusion matrix of Random Forest",
+            "description": "A RandomForestClassifier model trained to predict customer churn."
+        },
+        {
+            "model_name": "LogisticRegression",
+            "model_file": "logistic_regression.pkl",
+            "best_parameters": {
+                "C": 7,
+                "class_weight": "balanced",
+                "penalty": "l2"
+            },
+            "evaluation_metrics": {
+                "accuracy": 0.75,
+                "precision": 0.71,
+                "recall": 0.86,
+                "f1_score": 0.78,
+                "roc_auc": 1.0
+            },
+            "confusion_matrix_figure": "Figure 3.2: Confusion matrix of Logistic Regression",
+            "description": "A Logistic Regression model trained for customer churn prediction."
+        },
+        {
+            "model_name": "KNeighborsClassifier",
+            "model_file": "knn.pkl",
+            "best_parameters": {
+                "n_neighbors": 1
+            },
+            "evaluation_metrics": {
+                "accuracy": 0.77,
+                "precision": 0.79,
+                "recall": 0.77,
+                "f1_score": 0.78,
+                "roc_auc": 0.9993612880781023
+            },
+            "confusion_matrix_figure": "Figure 3.3: Confusion matrix of KNN",
+            "description": "A K Nearest Neighbor model used for customer churn prediction."
+        },
+        {
+            "model_name": "AdaBoostClassifier",
+            "model_file": "ada_boost.pkl",
+            "best_parameters": {
+                "learning_rate": 1,
+                "n_estimators": 117
+            },
+            "evaluation_metrics": {
+                "accuracy": 0.86,
+                "precision": 0.85,
+                "recall": 0.88,
+                "f1_score": 0.86,
+                "roc_auc": 1.0
+            },
+            "confusion_matrix_figure": "Figure 3.4: Confusion matrix of AdaBoost",
+            "description": "An AdaBoostClassifier model for predicting customer churn."
+        },
+        {
+            "model_name": "ExtraTreesClassifier",
+            "model_file": "extra_tree.pkl",
+            "best_parameters": {
+                "n_estimators": 130
+            },
+            "evaluation_metrics": {
+                "accuracy": 0.85,
+                "precision": 0.84,
+                "recall": 0.89,
+                "f1_score": 0.86,
+                "roc_auc": 0.9911504424778761
+            },
+            "confusion_matrix_figure": "Figure 3.5: Confusion matrix of Extra Tree",
+            "description": "An Extra Trees Classifier model used for predicting customer churn."
+        },
+        {
+            "model_name": "DecisionTreeClassifier",
+            "model_file": "decision_tree.pkl",
+            "best_parameters": {
+                "min_samples_leaf": 5,
+                "min_samples_split": 2
+            },
+            "evaluation_metrics": {
+                "accuracy": 0.81,
+                "precision": 0.82,
+                "recall": 0.83,
+                "f1_score": 0.82,
+                "roc_auc": 1.0
+            },
+            "confusion_matrix_figure": "Figure 3.6: Confusion matrix of Decision Tree",
+            "description": "A Decision Tree Classifier model for customer churn prediction."
+        },
+        {
+            "model_name": "MLPClassifier",
+            "model_file": "mlp.pkl",
+            "best_parameters": {
+                "activation": "relu",
+                "alpha": 0.05,
+                "hidden_layer_sizes": "(100,50)",
+                "learning_rate": "constant",
+                "solver": "adam"
+            },
+            "evaluation_metrics": {
+                "accuracy": 0.86,
+                "precision": 0.85,
+                "recall": 0.90,
+                "f1_score": 0.87,
+                "roc_auc": 1.0
+            },
+            "confusion_matrix_figure": "Figure 3.6: Confusion matrix of MLP Classifier",
+            "description": "A Multi-layer Perceptron (MLP) Classifier model trained for churn prediction."
+        }
+    ]
+}

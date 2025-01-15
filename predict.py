@@ -4,7 +4,7 @@ import pandas as pd
 # Load the saved model
 model = joblib.load('final_model.pkl')
 
-df = pd.read_csv('synthesized_data_with_churn.csv')
+df = pd.read_csv('actual_outcomes.csv')
 
 # Ensure that the columns match the training features
 try:

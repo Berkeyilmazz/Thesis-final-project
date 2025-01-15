@@ -31,7 +31,7 @@ logging.info("Outlier filtering complete.\n")
 
 # Add a synthetic StoreID column with random store identifiers
 filtered_dataset = filtered_dataset.copy()  # Create a copy to avoid SettingWithCopyWarning
-filtered_dataset['StoreID'] = np.random.randint(1, 21, size=len(filtered_dataset))  # Assuming 20 stores
+filtered_dataset['StoreID'] = np.random.randint(1, 21, size=len(filtered_dataset))  
 
 # Step 3: Split Data by Month
 logging.info("Step 3: Splitting Data by Month...")

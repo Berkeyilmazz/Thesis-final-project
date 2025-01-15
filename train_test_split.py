@@ -11,10 +11,16 @@ data = data.sample(frac=1, random_state=42).reset_index(drop=True)
 print("Dataset Shape:", data.shape)
 print("Dataset Columns:", data.columns.tolist())
 
-# Ensure there are no missing values
+# Ensure there are no missing values and fill missing values appropriately
 if data.isnull().sum().any():
     print("Handling missing values...")
-    data = data.fillna(0)  # Fill missing values with 0 (adjust if needed)
+
+    
+    for col in data.columns:
+        if data[col].dtype in ['float64', 'int64']:  
+            data[col] = data[col].fillna(data[col].mean())  
+        else:  
+            data[col] = data[col].fillna(data[col].mode()[0])  
 
 # Check that 'Churn' is a binary target
 if "Churn" not in data.columns:
@@ -28,7 +34,7 @@ y = data["Churn"]  # Target
 
 # Perform train-test split
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42
+    X, y, test_size=0.2, random_state=42, stratify=y
 )
 
 # Check the shapes of the resulting datasets

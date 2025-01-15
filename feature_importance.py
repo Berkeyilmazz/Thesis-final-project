@@ -18,17 +18,29 @@ class FeatureImportanceAnalyzer:
         else:
             raise ValueError("Feature importance is not available for this model type.")
 
+    def remove_zero_importance_features(self, importance):
+        """
+        Removes features with zero importance or constant values.
+        """
+        # Filter out features that have zero importance
+        filtered_importance = importance > 0.0001  # Threshold to remove very low importance features
+        return filtered_importance
+
     def plot_importance(self):
         """
         Visualizes feature importance as a bar plot.
         """
         importance = self.get_importance()
+        
         if len(importance) != len(self.feature_names):
             raise ValueError("Mismatch between number of features and importances.")
-
+        
+        # Remove features with zero or near-zero importance
+        filtered_importance = self.remove_zero_importance_features(importance)
+        
         importance_df = pd.DataFrame({
-            'Feature': self.feature_names,
-            'Importance': importance
+            'Feature': np.array(self.feature_names)[filtered_importance],
+            'Importance': importance[filtered_importance]
         }).sort_values(by='Importance', ascending=False)
 
         plt.figure(figsize=(10, 6))

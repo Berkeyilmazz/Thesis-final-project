@@ -6,7 +6,7 @@ from train_model import ModelTrainer
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, GridSearchCV  
 from imblearn.over_sampling import BorderlineSMOTE
 import joblib
 import pandas as pd
@@ -68,11 +68,38 @@ smote = BorderlineSMOTE(random_state=42)
 X_train_resampled, y_train_resampled = smote.fit_resample(X_train, y_train)
 logging.info("Data preprocessing for model training complete.\n")
 
-# Step 5: Train the Best Model
-logging.info("Step 5: Training the Best Model (Random Forest)...")
-model = RandomForestClassifier(n_estimators=100, max_depth=20, min_samples_split=2, random_state=42)
-model.fit(X_train_resampled, y_train_resampled)
-logging.info("Random Forest model training complete.\n")
+# Step 5: Train the Best Model with GridSearchCV
+logging.info("Step 5: Tuning the Best Model (Random Forest) using GridSearchCV...")
+
+# Define the RandomForestClassifier
+model = RandomForestClassifier(random_state=42)
+
+# Define hyperparameters to tune
+param_grid = {
+    'n_estimators': [50, 100, 200],  # Number of trees in the forest
+    'max_depth': [None, 10, 20, 30],  # Maximum depth of the trees
+    'min_samples_split': [2, 5, 10],  # Minimum number of samples required to split an internal node
+    'min_samples_leaf': [1, 2, 4]  # Minimum number of samples required to be at a leaf node
+}
+
+# Use GridSearchCV to find the best hyperparameters
+grid_search = GridSearchCV(estimator=model, param_grid=param_grid, cv=5, n_jobs=-1, verbose=2)
+
+# Fit the model with the best hyperparameters
+grid_search.fit(X_train_resampled, y_train_resampled)
+
+# Get the best hyperparameters from GridSearchCV
+best_params = grid_search.best_params_
+logging.info(f"Best hyperparameters found: {best_params}")
+
+# Train the model with the best hyperparameters
+best_model = grid_search.best_estimator_
+
+logging.info("Random Forest model training complete with best hyperparameters.\n")
+
+# Save the trained model
+joblib.dump(best_model, 'best_model.pkl')
+logging.info("Trained model saved as 'best_model.pkl'.\n")
 
 # Save the trained model
 joblib.dump(model, 'final_model.pkl')
